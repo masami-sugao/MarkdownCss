@@ -24,7 +24,7 @@ h2::before {
 }
 
 h3 {
-  background: linear-gradient(transparent 55%, #a7d6ff 75%);
+  background: linear-gradient(transparent 55%, #a7d6ff 55%);
   font-size: 1.6em !important;
   margin-top: 1.4em;
   margin-bottom: 1.0em;
@@ -46,4 +46,9 @@ h4:after {
 
 h5 {
   border-bottom: solid 3px black;
+}
+
+a {
+	color: #4078c0;
+	text-decoration: underline;
 }
