@@ -9,6 +9,7 @@ h2 {
 position: relative;
 padding: 0.6em;
 background: #e0edff;
+font-size: 30px !important;
 }
 
 h2:after {
