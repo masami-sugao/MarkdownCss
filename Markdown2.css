@@ -49,6 +49,6 @@ h5 {
 }
 
 a {
-	color: #4078c0;
-	text-decoration: underline;
+  color: #4078c0 !important;
+  text-decoration: underline !important;
 }
