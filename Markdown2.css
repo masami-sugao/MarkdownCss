@@ -5,23 +5,23 @@ border: dashed 2px white;
 padding: 0.2em 0.5em;
 }
 
-h2 {
-position: relative;
-padding: 0.6em;
-background: #e0edff;
-font-size: 30px !important;
-}
+  h2 {
+    position: relative;
+    padding: 0.6em;
+    background: #7db4e6;
+    color: white;
+  }
 
-h2:after {
-position: absolute;
-content: '';
-top: 100%;
-left: 30px;
-border: 15px solid transparent;
-border-top: 15px solid #e0edff;
-width: 0;
-height: 0;
-}
+h2::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    border: none;
+    border-bottom: solid 15px transparent;
+    border-right: solid 20px rgb(149, 158, 155);
+  }
+
 h3 {
 background: linear-gradient(transparent 70%, #a7d6ff 70%);
 font-size: 40px;
