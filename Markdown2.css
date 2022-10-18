@@ -10,6 +10,7 @@ h2 {
   padding: 0.6em;
   background: #7db4e6;
   color: white !important;
+  text-transform: none !important;
 }
 
 h2::before {
@@ -23,8 +24,8 @@ h2::before {
 }
 
 h3 {
-  background: linear-gradient(transparent 60%, #a7d6ff 75%);
-  font-size: 2em !important;
+  background: linear-gradient(transparent 55%, #a7d6ff 75%);
+  font-size: 1.6em !important;
   margin-top: 1.4em;
   margin-bottom: 1.0em;
 }
